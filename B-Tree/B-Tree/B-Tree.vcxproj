@@ -19,29 +19,29 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\B-tree\balancing_after_del.c" />
-    <ClCompile Include="..\..\..\..\B-tree\B_tree_Deletion.c" />
-    <ClCompile Include="..\..\..\..\B-tree\B_tree_Insertion.c" />
-    <ClCompile Include="..\..\..\..\B-tree\del_arranging.c" />
-    <ClCompile Include="..\..\..\..\B-tree\finding.c" />
-    <ClCompile Include="..\..\..\..\B-tree\from_File.c" />
-    <ClCompile Include="..\..\..\..\B-tree\main.c" />
-    <ClCompile Include="..\..\..\..\B-tree\merging.c" />
-    <ClCompile Include="..\..\..\..\B-tree\name_extracting.c" />
-    <ClCompile Include="..\..\..\..\B-tree\print.c" />
-    <ClCompile Include="..\..\..\..\B-tree\redistribution.c" />
-    <ClCompile Include="..\..\..\..\B-tree\retrieval.c" />
-    <ClCompile Include="..\..\..\..\B-tree\stk.c" />
+    <Text Include="Com_names1.txt" />
+    <Text Include="Com_names2.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\B-tree\Com_names1.txt" />
-    <Text Include="..\..\..\..\B-tree\Com_names2.txt" />
+    <ClCompile Include="balancing_after_del.c" />
+    <ClCompile Include="B_tree_Deletion.c" />
+    <ClCompile Include="B_tree_Insertion.c" />
+    <ClCompile Include="del_arranging.c" />
+    <ClCompile Include="finding.c" />
+    <ClCompile Include="from_File.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="merging.c" />
+    <ClCompile Include="name_extracting.c" />
+    <ClCompile Include="print.c" />
+    <ClCompile Include="redistribution.c" />
+    <ClCompile Include="retrieval.c" />
+    <ClCompile Include="stk.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\B-tree\functions.h" />
-    <ClInclude Include="..\..\..\..\B-tree\GC.h" />
-    <ClInclude Include="..\..\..\..\B-tree\Headers.h" />
-    <ClInclude Include="..\..\..\..\B-tree\type_record.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="GC.h" />
+    <ClInclude Include="Headers.h" />
+    <ClInclude Include="type_record.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
