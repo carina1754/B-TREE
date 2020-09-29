@@ -18,6 +18,31 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\B-tree\balancing_after_del.c" />
+    <ClCompile Include="..\..\..\..\B-tree\B_tree_Deletion.c" />
+    <ClCompile Include="..\..\..\..\B-tree\B_tree_Insertion.c" />
+    <ClCompile Include="..\..\..\..\B-tree\del_arranging.c" />
+    <ClCompile Include="..\..\..\..\B-tree\finding.c" />
+    <ClCompile Include="..\..\..\..\B-tree\from_File.c" />
+    <ClCompile Include="..\..\..\..\B-tree\main.c" />
+    <ClCompile Include="..\..\..\..\B-tree\merging.c" />
+    <ClCompile Include="..\..\..\..\B-tree\name_extracting.c" />
+    <ClCompile Include="..\..\..\..\B-tree\print.c" />
+    <ClCompile Include="..\..\..\..\B-tree\redistribution.c" />
+    <ClCompile Include="..\..\..\..\B-tree\retrieval.c" />
+    <ClCompile Include="..\..\..\..\B-tree\stk.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\B-tree\Com_names1.txt" />
+    <Text Include="..\..\..\..\B-tree\Com_names2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\B-tree\functions.h" />
+    <ClInclude Include="..\..\..\..\B-tree\GC.h" />
+    <ClInclude Include="..\..\..\..\B-tree\Headers.h" />
+    <ClInclude Include="..\..\..\..\B-tree\type_record.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,31 +163,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\B-tree\balancing_after_del.c" />
-    <ClCompile Include="..\..\..\..\B-tree\B_tree_Deletion.c" />
-    <ClCompile Include="..\..\..\..\B-tree\B_tree_Insertion.c" />
-    <ClCompile Include="..\..\..\..\B-tree\del_arranging.c" />
-    <ClCompile Include="..\..\..\..\B-tree\finding.c" />
-    <ClCompile Include="..\..\..\..\B-tree\from_File.c" />
-    <ClCompile Include="..\..\..\..\B-tree\main.c" />
-    <ClCompile Include="..\..\..\..\B-tree\merging.c" />
-    <ClCompile Include="..\..\..\..\B-tree\name_extracting.c" />
-    <ClCompile Include="..\..\..\..\B-tree\print.c" />
-    <ClCompile Include="..\..\..\..\B-tree\redistribution.c" />
-    <ClCompile Include="..\..\..\..\B-tree\retrieval.c" />
-    <ClCompile Include="..\..\..\..\B-tree\stk.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\..\B-tree\Com_names1.txt" />
-    <Text Include="..\..\..\..\B-tree\Com_names2.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\B-tree\functions.h" />
-    <ClInclude Include="..\..\..\..\B-tree\GC.h" />
-    <ClInclude Include="..\..\..\..\B-tree\Headers.h" />
-    <ClInclude Include="..\..\..\..\B-tree\type_record.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
